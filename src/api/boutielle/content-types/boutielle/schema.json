@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "boutielles",
+  "info": {
+    "singularName": "boutielle",
+    "pluralName": "boutielles",
+    "displayName": "Boutielles"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Nom": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

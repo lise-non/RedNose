@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "livres",
+  "info": {
+    "singularName": "livre",
+    "pluralName": "livres",
+    "displayName": "Livres"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Titre": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "blocks"
+    },
+    "Couverture": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Prix": {
+      "type": "decimal"
+    },
+    "Disponible": {
+      "type": "boolean"
+    }
+  }
+}
